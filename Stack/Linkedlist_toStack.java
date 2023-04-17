@@ -1,7 +1,7 @@
 //stack using Linked List
 
 public class Linkedlist_toStack {
-    private static class Node n{
+    private static class Node{
         int data;
         Node next;
 
