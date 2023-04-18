@@ -13,10 +13,8 @@ public class Check_if_Array_Is_Sorted_and_Rotated {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
         System.out.print("Enter the size of the array: ");
         int size = scanner.nextInt();
-
         int[] arr = new int[size];
         System.out.printf("Enter %d elements of the array:%n", size);
         for (int i = 0; i < size; i++) {
