@@ -3,10 +3,7 @@ import java.util.HashSet;
 public class RemoveDuplicates {
     public static void main(String[] args) {
          int[] arr ={4,5,4,5,5,5,9};
-         int k=Duplicates(arr);
-         for(int i=0;i<k;i++){
-             System.out.println(arr[i]+" ");
-         }
+         Duplicates(arr);
     }
 
     public static int Duplicates(int[] nums){
@@ -19,6 +16,9 @@ public class RemoveDuplicates {
         int j=0;
         for(int set: temp){
             nums[j++]=set;
+        }
+        for(int i=0;i< temp.size();i++){
+            System.out.println(nums[i]);
         }
         return temp.size();
 
