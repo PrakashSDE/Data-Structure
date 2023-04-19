@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Data-Structure.iml" filepath="$PROJECT_DIR$/Data-Structure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MapandHashMap/MapandHashMap.iml" filepath="$PROJECT_DIR$/MapandHashMap/MapandHashMap.iml" />
       <module fileurl="file://$PROJECT_DIR$/Problems/Problems.iml" filepath="$PROJECT_DIR$/Problems/Problems.iml" />
       <module fileurl="file://$PROJECT_DIR$/Searching/Searching.iml" filepath="$PROJECT_DIR$/Searching/Searching.iml" />
       <module fileurl="file://$PROJECT_DIR$/SetandHashset/SetandHashset.iml" filepath="$PROJECT_DIR$/SetandHashset/SetandHashset.iml" />
