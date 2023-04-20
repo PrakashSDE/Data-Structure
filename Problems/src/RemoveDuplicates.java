@@ -2,11 +2,15 @@ import java.util.HashSet;
 
 public class RemoveDuplicates {
     public static void main(String[] args) {
-         int[] arr ={4,5,4,5,5,5,9};
+         int[] arr ={1,2,2,7,9,9,10,14};
          Duplicates(arr);
-    }
+         for(int a: arr){
+             System.out.println(a);
+         }
 
-    public static int Duplicates(int[] nums){
+    }
+    //Using HashSet
+    public static int duplicateHashSet(int[] nums){
         HashSet<Integer> temp=new HashSet<>();
 
         for (int num : nums) {
@@ -22,5 +26,16 @@ public class RemoveDuplicates {
         }
         return temp.size();
 
+    }
+
+    public static int Duplicates(int[] nums){
+        int ptr=0;
+        for(int i=1;i<nums.length;i++){
+            if(nums[ptr]!=nums[i]){
+                ptr++;
+                nums[ptr]=nums[i];
+            }
+        }
+        return ptr+1;
     }
 }
