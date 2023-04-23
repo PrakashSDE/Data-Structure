@@ -2,6 +2,7 @@ public class Movezeros {
     public static void main(String[] args) {
         int arr[] ={ 1,2,0,1,0,4,0};
         zerosToEnd(arr);
+        moveZeroes(arr);
     }
 
     public static void zerosToEnd(int [] nums){
@@ -19,5 +20,20 @@ public class Movezeros {
             count++;
         }
         }
+        public static void moveZeroes(int[] nums) {
+            int j = 0;
+            for(int i = 0; i < nums.length; i++) {
+                if(nums[i] != 0) {
+                    int temp = nums[j];
+                    nums[j] = nums[i];
+                    nums[i] = temp;
+                    j++;
+                }
+            }
+            for(int a: nums){
+                System.out.println(a);
+            }
+        }
     }
+
 
