@@ -1,3 +1,5 @@
+package Array;
+
 public class RotatedArray {
     public static void main(String[] args) {
         int[] arr = {1, 2, 7, 9, 10, 14,52,56,180};

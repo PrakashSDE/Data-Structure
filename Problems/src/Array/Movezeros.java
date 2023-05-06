@@ -1,3 +1,5 @@
+package Array;
+
 public class Movezeros {
     public static void main(String[] args) {
         int arr[] ={ 1,2,0,1,0,4,0};
